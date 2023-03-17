@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main - print the last digit
+/**
+ * main - prints the last digit of the random
  * return 0 (success)
  */
 
