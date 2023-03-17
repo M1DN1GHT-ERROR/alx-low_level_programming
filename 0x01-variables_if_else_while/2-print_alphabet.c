@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	ch letter;
+	char letter;
 	for (letter = 'a'; letter <= 'z'; ch++)
 	{
 		putchar(letter);
