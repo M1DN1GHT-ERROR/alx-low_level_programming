@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int _putchar(*phr)
+int main(void)
 {
 	char *phr = "_putchar";
 
