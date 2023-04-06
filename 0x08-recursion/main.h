@@ -14,9 +14,9 @@ int is_prime_number(int n);
 int _putchar(char c);
 int power_operation(int n, int a);
 int is_prime_supporter(int n, int divisor);
-int int wildcmp(char *s1, char *s2);
-is_palindrome(char *s);
+int is_palindrome(char *s);
 int compare_chars(char *s, int a, int b);
 int _strlen_recursion(char *s);
+int wildcmp(char *s1, char *s2);
 
 #endif
