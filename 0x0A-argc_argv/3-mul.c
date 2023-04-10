@@ -10,8 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int j;
+	int i, j, mult;
 
 	if (argc != 3)
 	{
@@ -20,8 +19,9 @@ int main(int argc, char *argv[])
 	}
 	i = atoi (argv[1]);
 	j = atoi (argv[2]);
+	mult = i * j;
 
-printf("%d\n", i * j);
+printf("%d\n", mult);
 return (0);
 }
 
