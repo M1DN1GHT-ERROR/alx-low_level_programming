@@ -8,17 +8,17 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int i, j, mult;
 
 	if (argc != 3)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
-	i = atoi (argv[1]);
-	j = atoi (argv[2]);
+	i = atoi(argv[1]);
+	j = atoi(argv[2]);
 	mult = i * j;
 
 printf("%d\n", mult);
