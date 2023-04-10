@@ -10,12 +10,18 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc < 3)
+	int i;
+	int j;
+
+	if (argc != 3)
 	{
 		printf("ERROR\n");
 		return (1);
 	}
-printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	i = atoi (argv[1]);
+	j = atoi (argv[2]);
+
+printf("%d\n", i * j);
 return (0);
 }
 
