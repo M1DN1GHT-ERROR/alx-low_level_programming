@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main - adds positive numbers
+/**
+ * main - adds positive numbers.
  * @argc: arguments counter
  * @argv: array of arguments
  * Return: 0 on success, 1 on failure
