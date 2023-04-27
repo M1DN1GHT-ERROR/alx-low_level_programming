@@ -1,14 +1,14 @@
 #include "lists.h"
 
 /**
- * add_node - adds a new node at the end of a list_t list
- * @head: pointer to the head of the list
- * @str: string value to be added to the new node
+ * add_node_end - adds a node to a singly linked list
+ * @head: the pointer to the head of the list
+ * @str: the data to store
  *
- * Return: pointer to the new element, or NULL if it failed
+ * Return: the pointer to new element
  */
 
-list_t *add_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *new;
 	list_t *tmp = *head;
